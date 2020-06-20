@@ -3,6 +3,7 @@
   "version": "1.0.0-alpha",
   "description": "Codemod that appends default property to CommonJS require.",
   "author": "Mark <mark@remarkablemark.org>",
+  "bin": "bin/index.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore --ignore-pattern /__testfixtures__/ .",
     "lint:fix": "npm run lint -- --fix",
@@ -38,6 +39,7 @@
     "standard-version": "^8.0.0"
   },
   "files": [
+    "/bin",
     "/require-default.js"
   ],
   "license": "MIT"
