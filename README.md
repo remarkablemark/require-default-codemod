@@ -54,7 +54,7 @@ $ npx require-default-codemod [path] [...options]
 
 ### Local
 
-Run codemod locally (requires [jscodeshift](https://www.npmjs.com/package/npx)):
+Run codemod locally (requires [jscodeshift](https://github.com/facebook/jscodeshift)):
 
 ```sh
 $ npm install --global jscodeshift
