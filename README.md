@@ -16,20 +16,18 @@ require-default-codemod [path] [...options]
 To run the codemod in current directory:
 
 ```sh
-npx require-default-codemod .
+$ npx require-default-codemod .
 ```
 
-Before transformation:
+Before transformation for JS file:
 
 ```js
-// index.js
 require('foo');
 ```
 
-After transformation:
+After transformation for JS file:
 
 ```js
-// index.js
 require('foo').default;
 ```
 
@@ -42,8 +40,8 @@ The codemod can be found on [npm](https://www.npmjs.com/package/require-default-
 Run codemod globally:
 
 ```sh
-npm install --global require-default-codemod
-require-default-codemod [path] [...options]
+$ npm install --global require-default-codemod
+$ require-default-codemod [path] [...options]
 ```
 
 ### npx
@@ -51,7 +49,7 @@ require-default-codemod [path] [...options]
 Run codemod using [npx](https://www.npmjs.com/package/npx):
 
 ```sh
-npx require-default-codemod [path] [...options]
+$ npx require-default-codemod [path] [...options]
 ```
 
 ### Local
@@ -59,9 +57,9 @@ npx require-default-codemod [path] [...options]
 Run codemod locally (requires [jscodeshift](https://www.npmjs.com/package/npx)):
 
 ```sh
-npm install --global jscodeshift
-npm install require-default-codemod
-jscodeshift -t node_modules/require-default-codemod/require-default.js [path] [...options]
+$ npm install --global jscodeshift
+$ npm install require-default-codemod
+$ jscodeshift -t node_modules/require-default-codemod/require-default.js [path] [...options]
 ```
 
 ### Path
@@ -69,13 +67,13 @@ jscodeshift -t node_modules/require-default-codemod/require-default.js [path] [.
 Run codemod for file `file.js`:
 
 ```sh
-require-default-codemod file.js
+$ require-default-codemod file.js
 ```
 
 Run codemod for directory `directory`:
 
 ```sh
-require-default-codemod directory
+$ require-default-codemod directory
 ```
 
 ### Options
@@ -83,7 +81,7 @@ require-default-codemod directory
 Pass a configuration file to ignore files/patterns during transform:
 
 ```sh
-require-default-codemod . --ignore-config .gitignore
+$ require-default-codemod . --ignore-config .gitignore
 ```
 
 > `node_modules` are ignored by default.
