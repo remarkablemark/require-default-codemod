@@ -1,5 +1,12 @@
 # require-default-codemod
 
+[![NPM](https://nodei.co/npm/require-default-codemod.png)](https://nodei.co/npm/require-default-codemod/)
+
+[![NPM version](https://img.shields.io/npm/v/require-default-codemod.svg)](https://www.npmjs.com/package/require-default-codemod)
+[![Build Status](https://travis-ci.org/remarkablemark/require-default-codemod.svg?branch=master)](https://travis-ci.org/remarkablemark/require-default-codemod)
+[![Coverage Status](https://coveralls.io/repos/github/remarkablemark/require-default-codemod/badge.svg?branch=master)](https://coveralls.io/github/remarkablemark/require-default-codemod?branch=master)
+[![Dependency status](https://david-dm.org/remarkablemark/require-default-codemod.svg)](https://david-dm.org/remarkablemark/require-default-codemod)
+
 [Codemod](https://github.com/facebook/jscodeshift) that appends `default` property to CommonJS `require`:
 
 ```
