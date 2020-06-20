@@ -6,10 +6,24 @@
 require-default-codemod [path] [...options]
 ```
 
-To run the codemod in the current directory:
+To run the codemod in current directory:
 
 ```sh
 npx require-default-codemod .
+```
+
+Before transformation:
+
+```js
+// index.js
+require('foo');
+```
+
+After transformation:
+
+```js
+// index.js
+require('foo').default;
 ```
 
 The codemod can be found on [npm](https://www.npmjs.com/package/require-default-codemod).
@@ -65,7 +79,7 @@ Pass a configuration file to ignore files/patterns during transform:
 require-default-codemod . --ignore-config .gitignore
 ```
 
-> _Note:_ `node_modules` are ignored by default.
+> `node_modules` are ignored by default.
 
 See more [options](https://github.com/facebook/jscodeshift#usage-cli).
 
