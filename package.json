@@ -1,6 +1,6 @@
 {
   "name": "require-default-codemod",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "Codemod that appends default property to CommonJS require.",
   "author": "Mark <mark@remarkablemark.org>",
   "bin": "bin/index.js",
