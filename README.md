@@ -19,13 +19,13 @@ To run the codemod in current directory:
 $ npx require-default-codemod .
 ```
 
-Before transformation for JS file:
+Before JS file transformation:
 
 ```js
 require('foo');
 ```
 
-After transformation for JS file:
+After JS file transformation:
 
 ```js
 require('foo').default;
