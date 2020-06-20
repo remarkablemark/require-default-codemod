@@ -1,0 +1,21 @@
+{
+  "name": "require-default-codemod",
+  "version": "1.0.0-alpha",
+  "description": "Codemod that appends default property to CommonJS require.",
+  "author": "Mark <mark@remarkablemark.org>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remarkablemark/require-default-codemod"
+  },
+  "bugs": {
+    "url": "https://github.com/remarkablemark/require-default-codemod/issues"
+  },
+  "keywords": [
+    "require-default-codemod",
+    "require",
+    "default",
+    "codemod",
+    "commonjs"
+  ],
+  "license": "MIT"
+}
