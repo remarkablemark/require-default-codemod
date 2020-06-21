@@ -13,7 +13,7 @@
 require-default-codemod [path] [...options]
 ```
 
-To run the codemod in current directory:
+To run the codemod in the current directory:
 
 ```sh
 $ npx require-default-codemod .
@@ -31,18 +31,14 @@ After JS file transformation:
 require('foo').default;
 ```
 
-The codemod can be found on [npm](https://www.npmjs.com/package/require-default-codemod).
+This codemod can be found on [npm](https://www.npmjs.com/package/require-default-codemod).
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [npx](https://www.npmjs.com/package/npx) or [npm](https://www.npmjs.com/get-npm)
 
 ## Usage
-
-### Global
-
-Run codemod globally:
-
-```sh
-$ npm install --global require-default-codemod
-$ require-default-codemod [path] [...options]
-```
 
 ### npx
 
@@ -52,9 +48,18 @@ Run codemod using [npx](https://www.npmjs.com/package/npx):
 $ npx require-default-codemod [path] [...options]
 ```
 
+### Global
+
+Install and run codemod globally:
+
+```sh
+$ npm install --global require-default-codemod
+$ require-default-codemod [path] [...options]
+```
+
 ### Local
 
-Run codemod locally (requires [jscodeshift](https://github.com/facebook/jscodeshift)):
+Install and run codemod locally (requires [jscodeshift](https://github.com/facebook/jscodeshift)):
 
 ```sh
 $ npm install --global jscodeshift
