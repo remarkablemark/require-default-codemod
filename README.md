@@ -31,7 +31,9 @@ After JS file transformation:
 require('foo').default;
 ```
 
-This codemod can be found on [npm](https://www.npmjs.com/package/require-default-codemod).
+> This codemod will not transform existing `require(/* ... */).default`.
+
+See codemod on [npm](https://www.npmjs.com/package/require-default-codemod) or read [blog post](https://remarkablemark.org/blog/2020/06/20/require-default-codemod/).
 
 ## Prerequisites
 
