@@ -4,12 +4,14 @@ var { bar } = require("./bar");
 
 let baz = require('./baz').baz;
 
+require('./qux').default;
+
 const hello = "world";
 
 1 + 2 === 3;
 
-const qux = require(
-  'qux'
+const quux = require(
+  'quux'
 );
 
-import quux from 'quux';
+import foobar from 'foobar';
