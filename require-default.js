@@ -1,8 +1,8 @@
 /**
  * Appends `default` property to CommonJS `require`.
  *
- * @see https://github.com/facebook/jscodeshift
- * @see https://astexplorer.net/
+ * @see {@link https://github.com/facebook/jscodeshift}
+ * @see {@link https://astexplorer.net/}
  *
  * @param {Object} fileInfo
  * @param {String} fileInfo.source
